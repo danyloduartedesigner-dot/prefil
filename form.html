@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<h1>Forms</h1>
+<body>
+    <section>
+       
+        <form action=""method="get">
+           <h1> <legend>Formulário</legend></h1>
+           <p>Gênero</p>
+            <fieldset>
+
+
+            <label for="username">Name</label>
+            <input type="text"name="user name" required>
+            <br>
+            <label for="age">Age</label>
+            <input type="number"name="age" min="12" max="100" required>
+            <br>
+            <label for="bithdate">Data de nascimento</label>
+            <input type="date"name="bithdate">
+            <br>
+            <label for="username">Email</label>
+            <input type="email"name="useremail"required>
+            <br>
+            <label for="userphonenumber">Telefone</label>
+            <input type="tel"name="userphonenumber"pattern="[0-9]{11}"placeholder="79 9 99510558">
+            <br>
+            <label for="userimage">upload de fotos</label>
+            <input type="file"accept="image/*"name="userimage">
+            <br>
+            </fieldset>-->
+            <fieldset>
+                <legend>Perfil</legend>
+                <input type="radio" name="undergender"value="Feminino">
+                <label for="usergender">Feminino</label>
+                 <input type="radio" name="undergender"value="Masculino">
+                <label for="usergender">Masculino</label>
+                 <input type="radio" name="undergender"value="not informed">
+                <label for="usergender">prefiro não informar</label>
+                 <br>
+                
+            <label for="maritalstatus">Estado civil</label>
+            <select name="maritalstatus">
+                <option value="Notinformed">Selecione...</option>
+                <option value="Casado">Casado</option>
+                 <option value="Solteiro">Solteiro</option>
+                  <option value="Divorciado">Divorciado</option>
+                   </select>
+
+                 <label for="userstate">Cidade (região)</label>
+               <select name="userstate">
+              <option value="Acre"> Acre</option> 
+              <option value=" Amapá"> Amapá</option>  
+              <option value="Amazonas"> Amazonas</option>  
+              <option value="Pará"> Pará</option> 
+              <option value="Rondônia"> Rondônia</option>  
+              <option value="Roraima"> Roraima</option>
+              <option value="Tocantins"> Tocantins</option> 
+              <option value="Alagoas<"> Alagoas</option>  
+              <option value="Bahia"> Bahia</option>  
+              <option value="Ceará"> Ceará </option>cle
+              <option value="Maranhão"> Maranhão</option> 
+              <option value="Paraíba"> Paraíba</option>  
+              <option value="Pernambuco"> Pernambuco</option>  
+              <option value="Piauí"> Piauí</option>  
+              <option value="Rio Grande do Norte"> Rio Grande do Norte</option>  
+              <option value="Sergipe"> Sergipe</option>  
+              <option value="Goiás"> Goiás</option> 
+              <option value=" Mato Grosso"> Mato Grosso</option> 
+              <option value="Mato Grosso do Sul"> Mato Grosso do Sul</option> 
+              <option value="Distrito Federal"> Distrito Federal</option>  
+              <option value="Espírito Santo"> Espírito Santo</option> 
+              <option value="Minas Gerais"> Minas Gerais</option> 
+              <option value="Rio de Janeiro"> Rio de Janeiro</option>  
+              <option value="São Paulo"> São Paulo</option> 
+              <option value=" Paraná"> Paraná</option> 
+              <option value="Rio Grande do Sul"> Rio Grande do Sul</option>  
+              <option value="Santa Catarina">Santa Catarina</option> 
+                 
+              </select>
+
+               <label for="usercity">Cidade</label>
+                 <input type="text" name="usercity"value="Endereço">
+           
+
+
+           
+
+
+               
+            <button type="submit"> Enviar</button>
+
+
+        </form>
+    </section>
+    
+</body>
+</html>
